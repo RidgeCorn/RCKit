@@ -1,11 +1,11 @@
 //
 //  NSString+RCStorage.m
-//  RCHadot
+//  RCKit
 //
 //  Created by Looping on 14-4-9.
 //
 //  The MIT License (MIT)
-//  Copyright (c) 2014 Looping, Ridgecorn
+//  Copyright (c) 2014 Ridgecorn (http://ridgecorn.com/ )
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -25,7 +25,6 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 //
-
 
 #import "NSString+RCStorage.h"
 
@@ -83,11 +82,11 @@
 }
 
 - (NSString *)addKeyPrefixForClass:(Class)cls {
-    return [[NSString stringWithFormat:@"__%@_(managedByRCHadot)_", NSStringFromClass(cls)] stringByAppendingString:self];
+    return [[NSString stringWithFormat:@"__%@_(managedByRCKit)_", NSStringFromClass(cls)] stringByAppendingString:self];
 }
 
 - (NSString *)addKeyPrefixForString:(NSString *)string {
-    return [[NSString stringWithFormat:@"__%@_(managedByRCHadot)_", string] stringByAppendingString:self];
+    return [[NSString stringWithFormat:@"__%@_(managedByRCKit)_", string] stringByAppendingString:self];
 }
 
 @end

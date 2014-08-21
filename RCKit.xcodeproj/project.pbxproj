@@ -334,11 +334,11 @@
 		6E859F3119A350ED00BB051A /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				6E5AF06419A5D1AE005FA4F9 /* NSData */,
-				6E5AF06019A5D145005FA4F9 /* NSObject */,
 				6E5AF04819A5C314005FA4F9 /* NSBundle */,
+				6E5AF06419A5D1AE005FA4F9 /* NSData */,
 				6E859F3219A350ED00BB051A /* NSDate */,
 				6E859F3519A350ED00BB051A /* NSDictionary */,
+				6E5AF06019A5D145005FA4F9 /* NSObject */,
 				6E859F3819A350ED00BB051A /* NSString */,
 			);
 			path = Foundation;
@@ -365,12 +365,12 @@
 		6E859F3819A350ED00BB051A /* NSString */ = {
 			isa = PBXGroup;
 			children = (
+				6E5AF04519A5C244005FA4F9 /* NSString+RCAppConfig.h */,
+				6E5AF04619A5C244005FA4F9 /* NSString+RCAppConfig.m */,
 				6E859F3919A350ED00BB051A /* NSString+RCStorage.h */,
 				6E859F3A19A350ED00BB051A /* NSString+RCStorage.m */,
 				6E859F3B19A350ED00BB051A /* NSString+RCString.h */,
 				6E859F3C19A350ED00BB051A /* NSString+RCString.m */,
-				6E5AF04519A5C244005FA4F9 /* NSString+RCAppConfig.h */,
-				6E5AF04619A5C244005FA4F9 /* NSString+RCAppConfig.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -379,12 +379,12 @@
 			isa = PBXGroup;
 			children = (
 				6E5AF05419A5C996005FA4F9 /* UIApplication */,
-				6E5AF05519A5C996005FA4F9 /* UIScreen */,
-				6E5AF05619A5C996005FA4F9 /* UIViewController */,
-				6E5AF05019A5C84A005FA4F9 /* UIDevice */,
 				6E859F3F19A350ED00BB051A /* UIColor */,
+				6E5AF05019A5C84A005FA4F9 /* UIDevice */,
 				6E859F4219A350ED00BB051A /* UIImage */,
+				6E5AF05519A5C996005FA4F9 /* UIScreen */,
 				6E859F4519A350ED00BB051A /* UIView */,
+				6E5AF05619A5C996005FA4F9 /* UIViewController */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";

@@ -1,11 +1,11 @@
 //
 //  NSString+RCStorage.h
-//  RCHadot
+//  RCKit
 //
 //  Created by Looping on 14-4-9.
 //
 //  The MIT License (MIT)
-//  Copyright (c) 2014 Looping, Ridgecorn
+//  Copyright (c) 2014 Ridgecorn (http://ridgecorn.com/ )
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal

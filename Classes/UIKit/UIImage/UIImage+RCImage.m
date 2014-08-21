@@ -1,11 +1,11 @@
 //
 //  UIImage+RCImage.m
-//  RCHadot
+//  RCKit
 //
 //  Created by Looping on 14-4-2.
-//  Copyright (c) 2014 RidgeCorn. All rights reserved.
 //
-// ref https://github.com/Cocoanetics/DTFoundation
+// Ref https://github.com/Cocoanetics/DTFoundation
+// License https://github.com/Cocoanetics/DTFoundation/blob/develop/LICENSE
 //
 
 #import "UIImage+RCImage.h"
