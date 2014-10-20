@@ -27,6 +27,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIkit.h>
 
 @interface NSObject (RCVerify)
 
